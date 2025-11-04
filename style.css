@@ -90,7 +90,7 @@ ul li a:hover{
 
 }
 
-.btn{
+.btn1{
     width: 100px;
     height: 40px;
     background: #ff7200;
@@ -161,9 +161,9 @@ ul li a:hover{
     font-size: 60px;
 
 }
-.form{
-    width: 250px;
-    height: 380px;
+.forms{
+    width: 280px;
+    height: 480px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%);
     position: absolute;
     top: -20px;
@@ -171,7 +171,7 @@ ul li a:hover{
     border-radius: 10px;
     padding: 25px;
 }
-.form h2{
+.forms h2{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
@@ -182,7 +182,7 @@ ul li a:hover{
     padding: 8px;
     background-color: #fff;
 }
-.form input{
+.forms input{
     width: 240px;
     height: 35px;
     background: transparent;
@@ -197,7 +197,7 @@ ul li a:hover{
     font-family: sans-serif;
 
 }
-.form input:focus{
+.forms input:focus{
     outline: none;
 
 }
@@ -231,14 +231,14 @@ ul li a:hover{
     font-weight: bold;
 
 }
-.form .link{
+.forms .link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
 
 }
-.form link a{
+.forms link a{
     text-decoration: none;
     color: #ff7200;
     
@@ -268,5 +268,64 @@ ul li a:hover{
 }
 #loop:hover{
     color: #ff7200;
+
+}
+
+.slide{
+    height: auto;
+    width: 100%;
+}
+
+.card{
+    margin: 30px;
+    height: 300px;
+    
+    
+}
+.cards{
+    display: flex;
+    padding: 5px; 
+    
+}
+#heading{
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    text-decoration: underline black;
+    color: #ff7200;
+}
+#image{
+
+    width: 500px;
+}
+#blue {
+  background-color: #ff7200;
+  height: 250px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 2rem;
+  
+
+}
+.footer-first,.footer-second,.footer-third,.footer-four{
+  margin-top: 5rem;
+}
+.footer i{
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-left: 2px;
+}
+.copyright{
+  background-color:  rgb(39, 38, 38);
+  color: white;
+  margin: 1rem;
+}
+.copyright p{
+  text-align: center;
 
 }
