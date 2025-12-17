@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Website</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">MyWebsite</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero d-flex align-items-center">
+  <div class="container text-center text-white">
+    <h1 class="fw-bold">Build Modern Websites</h1>
+    <p class="lead">Fast • Responsive • Professional</p>
+    <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Features</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fa fa-mobile fa-3x mb-3 text-primary"></i>
+          <h5>Responsive</h5>
+          <p>Mobile friendly design for all devices.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fa fa-bolt fa-3x mb-3 text-primary"></i>
+          <h5>Fast</h5>
+          <p>Optimized for speed & performance.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center p-4">
+          <i class="fa fa-lock fa-3x mb-3 text-primary"></i>
+          <h5>Secure</h5>
+          <p>Safe and secure web structure.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Pricing Plans</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card text-center shadow">
+          <div class="card-body">
+            <h5>Basic</h5>
+            <h2>$10</h2>
+            <p>1 Website</p>
+            <button class="btn btn-outline-primary">Choose</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center shadow border-primary">
+          <div class="card-body">
+            <h5>Standard</h5>
+            <h2>$25</h2>
+            <p>5 Websites</p>
+            <button class="btn btn-primary">Choose</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-center shadow">
+          <div class="card-body">
+            <h5>Premium</h5>
+            <h2>$50</h2>
+            <p>Unlimited</p>
+            <button class="btn btn-outline-primary">Choose</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <input type="text" class="form-control mb-3" placeholder="Your Name">
+          <input type="email" class="form-control mb-3" placeholder="Email">
+          <textarea class="form-control mb-3" placeholder="Message"></textarea>
+          <button class="btn btn-primary w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>© 2025 MyWebsite | All Rights Reserved</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
